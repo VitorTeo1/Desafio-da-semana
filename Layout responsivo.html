@@ -1,0 +1,99 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Fintech Paçoca</title>
+        <style>
+            body{
+                background-image: linear-gradient(45deg, rgb(255, 209, 4), rgb(0, 102, 255));
+            }
+            
+            .logo{
+                background: rgba(0, 205, 241, 0.9);
+                font-family: Comic Sans MS, Comic Sans, cursive;
+                padding-left: 15%;
+                padding-right: 15%;
+                border: none;
+                border-radius:3mm;
+            }
+            input{
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
+                color: lightslategray;
+                border: none;
+                border-radius: 2mm;
+            }
+        
+
+            select{
+             font-family: Arial, Helvetica, sans-serif;
+             border:none;
+             border-width: 0.1vw;
+             color:grey;
+             cursor: pointer;
+             padding: 1%;
+             padding-left: 2%;
+             padding-right: 2%;
+             color:grey;
+             border-radius: 2mm;
+             border: none;
+            }
+            .simular{
+                background-color: dodgerblue;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
+                color: rgb(253, 253, 253);
+                border: none;
+                border-radius: 2mm;
+                text-shadow: black 0.2mm 0.2mm 0.2mm;
+                transition: 0.3s;
+                cursor: pointer;
+                font-size: large;
+            }
+            .simular:hover{
+                background-color: darkturquoise;
+            }
+            h2{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: x-large;
+                color: black;
+                text-shadow: white 0.3mm 0.3mm 0.3mm;
+            }
+            h1{
+                color: black;
+                text-shadow: white 0.3mm 0.3mm 0.3mm;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <center><button class="logo"><h1>Fintech Paçoca</h1></button></center>
+            <center><h2>Simulador</h2></center>
+            <center><input type="text" placeholder="Nome" class="txt" required>
+            <br>
+            <br>
+            <input type="number" placeholder="Mensalidade" class="nmb" required>
+            <br>
+            <br>
+            <select>
+                <option id="n1">1 Ano</option>
+                <option id="n2">2 Anos</option>
+                <option id="n3">3 Anos</option>
+                <option id="n4">4 Anos</option>
+                <option id="n5">5 Anos</option>
+                <option id="n6">6 Anos</option>
+                <option id="n7">7 Anos</option>
+                <option id="n8">8 Anos</option>
+                <option id="n9">9 Anos</option>
+                <option id="n10">10 Anos</option> 
+            </select></center>
+        <br>
+        <br>
+        <center><a href="Simulação.html"><button class="simular">Simular</button></a></center>
+        </div>
+    </body>
+</html>
